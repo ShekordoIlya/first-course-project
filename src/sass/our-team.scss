@@ -1,0 +1,264 @@
+.our-team-container {
+    padding: 117px 170px;
+    width: 1170px;
+}
+
+.our-team-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.our-team-card-one {
+    width: 25%;
+    margin-right: 30px;
+}
+
+.our-team-card-two {
+    width: 25%;
+    margin-right: 30px;
+}
+
+.our-team-card-three {
+    width: 25%;
+    margin-right: 30px;
+}
+
+.our-team-card-four {
+    width: 25%;
+}
+
+.our-team-card-one-img-wrap {
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    height: 170px;
+    margin: 0 auto 20px;
+    transition: 0.3s;
+}
+
+.our-team-card-one-img-wrap:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+.our-team-card-one-img-wrap img {
+    align-self: center;
+    width: 100%;
+    height: 100%;
+}
+
+.our-team-card-two-img-wrap {
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    height: 170px;
+    margin: 0 auto 20px;
+    transition: 0.3s;
+}
+
+.our-team-card-two-img-wrap:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+.our-team-card-two-img-wrap img {
+    align-self: center;
+    width: 100%;
+    height: 100%;
+}
+
+.our-team-card-three-img-wrap {
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    height: 170px;
+    margin: 0 auto 20px;
+    transition: 0.3s;
+}
+
+.our-team-card-three-img-wrap:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+.our-team-card-three-img-wrap img {
+    align-self: center;
+    width: 100%;
+    height: 100%;
+}
+
+.our-team-card-four-img-wrap {
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    height: 170px;
+    margin: 0 auto 20px;
+    transition: 0.3s;
+}
+
+.our-team-card-four-img-wrap:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+.our-team-card-four-img-wrap img {
+    align-self: center;
+    width: 100%;
+    height: 100%;
+}
+
+.our-team-card-one-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.our-team-card-one-header::after {
+    content: "founder, ceo";
+    font-size: 18px;
+    font-weight: 100;
+    color: #FF4343;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 17px;
+}
+
+.our-team-card-one-text {
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 38px;
+}
+
+.our-team-card-two-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.our-team-card-two-header::after {
+    content: "founder, ceo";
+    font-size: 18px;
+    font-weight: 100;
+    color: #FF4343;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 17px;
+}
+
+.our-team-card-two-text {
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 38px;
+}
+
+.our-team-card-three-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.our-team-card-three-header::after {
+    content: "founder, ceo";
+    font-size: 18px;
+    font-weight: 100;
+    color: #FF4343;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 17px;
+}
+
+.our-team-card-three-text {
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 38px;
+}
+
+.our-team-card-four-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.our-team-card-four-header::after {
+    content: "founder, ceo";
+    font-size: 18px;
+    font-weight: 100;
+    color: #FF4343;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 17px;
+}
+
+.our-team-card-four-text {
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 38px;
+}
+
+.our-team-card-one-links ul li a img {
+    width: 39px;
+    height: 39px;
+    transition: 0.3s;
+}
+
+.our-team-card-one-links-wrap {
+    display: flex;
+}
+
+.our-team-card-one-links ul li a img:hover {
+    background-color: #FF4343;
+    transition: 0.3s;
+    transform: scale(1.1);
+    border-radius: 50%;
+}
+
+.our-team-card-two-links ul li a img {
+    width: 39px;
+    height: 39px;
+    transition: 0.3s;
+}
+
+.our-team-card-two-links-wrap {
+    display: flex;
+}
+
+.our-team-card-two-links ul li a img:hover {
+    background-color: #FF4343;
+    transition: 0.3s;
+    transform: scale(1.1);
+    border-radius: 50%;
+}
+
+.our-team-card-three-links ul li a img {
+    width: 39px;
+    height: 39px;
+    transition: 0.3s;
+}
+
+.our-team-card-three-links-wrap {
+    display: flex;
+}
+
+.our-team-card-three-links ul li a img:hover {
+    background-color: #FF4343;
+    transition: 0.3s;
+    transform: scale(1.1);
+    border-radius: 50%;
+}
+
+.our-team-card-four-links ul li a img {
+    width: 39px;
+    height: 39px;
+    transition: 0.3s;
+}
+
+.our-team-card-four-links-wrap {
+    display: flex;
+}
+
+.our-team-card-four-links ul li a img:hover {
+    background-color: #FF4343;
+    transition: 0.3s;
+    transform: scale(1.1);
+    border-radius: 50%;
+}
