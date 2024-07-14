@@ -1,0 +1,308 @@
+.works-container {
+    width: 1170px;
+}
+
+.works-content-top {
+    display: flex;
+}
+
+.works-content-down {
+    display: flex;
+}
+
+.works-card-top-one {
+    background-image: url(../img/card-img-one.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    height: 300px;
+    border: 0.5px solid white;
+    z-index: 0;
+    position: relative;
+}
+
+.works-card-top-one-hover {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    font-size: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.works-card-top-one-hover:hover {
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(191, 21, 21, 0.625);
+    transition: 0.3s;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.works-card-top-two {
+    background-image: url(../img/card-img-two.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    height: 300px;
+    border: 0.5px solid white;
+    z-index: 0;
+    position: relative;
+}
+
+.works-card-top-two-hover {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    font-size: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.works-card-top-two-hover:hover {
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(191, 21, 21, 0.625);
+    transition: 0.3s;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.works-card-top-three {
+    background-image: url(../img/card-img-three.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    height: 300px;
+    border: 0.5px solid white;
+    z-index: 0;
+    position: relative;
+}
+
+.works-card-top-three-hover {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    font-size: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.works-card-top-three-hover:hover {
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(191, 21, 21, 0.625);
+    transition: 0.3s;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.works-card-top-four {
+    background-image: url(../img/card-img-four.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    height: 300px;
+    border: 0.5px solid white;
+    z-index: 0;
+    position: relative;
+}
+
+.works-card-top-four-hover {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    font-size: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.works-card-top-four-hover:hover {
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(191, 21, 21, 0.625);
+    transition: 0.3s;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.works-card-down-one {
+    background-image: url(../img/card-img-five.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    height: 300px;
+    border: 0.5px solid white;
+    z-index: 0;
+    position: relative;
+}
+
+.works-card-down-one-hover {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    font-size: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.works-card-down-one-hover:hover {
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(191, 21, 21, 0.625);
+    transition: 0.3s;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.works-card-down-two {
+    background-image: url(../img/card-img-six.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    height: 300px;
+    border: 0.5px solid white;
+    z-index: 0;
+    position: relative;
+}
+
+.works-card-down-two-hover {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    font-size: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.works-card-down-two-hover:hover {
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(191, 21, 21, 0.625);
+    transition: 0.3s;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.works-card-down-three {
+    background-image: url(../img/card-img-seven.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    height: 300px;
+    border: 0.5px solid white;
+    z-index: 0;
+    position: relative;
+}
+
+.works-card-down-three-hover {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    font-size: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.works-card-down-three-hover:hover {
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(191, 21, 21, 0.625);
+    transition: 0.3s;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.works-card-down-four {
+    background-image: url(../img/card-img-eight.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    height: 300px;
+    border: 0.5px solid white;
+    z-index: 0;
+    position: relative;
+}
+
+.works-card-down-four-hover {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    font-size: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.works-card-down-four-hover:hover {
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(191, 21, 21, 0.625);
+    transition: 0.3s;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
