@@ -46,6 +46,12 @@
     align-self: center;
     width: 100%;
     height: 100%;
+    transition: 0.5s;
+}
+
+.our-team-card-one-img-wrap img:hover {
+    border-radius: 100%;
+    transition: 0.5s;
 }
 
 .our-team-card-two-img-wrap {
@@ -67,6 +73,12 @@
     align-self: center;
     width: 100%;
     height: 100%;
+    transition: 0.5s;
+}
+
+.our-team-card-two-img-wrap img:hover {
+    border-radius: 100%;
+    transition: 0.5s;
 }
 
 .our-team-card-three-img-wrap {
@@ -88,6 +100,12 @@
     align-self: center;
     width: 100%;
     height: 100%;
+    transition: 0.3s;
+}
+
+.our-team-card-three-img-wrap img:hover {
+    border-radius: 100%;
+    transition: 0.5s;
 }
 
 .our-team-card-four-img-wrap {
@@ -109,6 +127,12 @@
     align-self: center;
     width: 100%;
     height: 100%;
+    transition: 0.5s;
+}
+
+.our-team-card-four-img-wrap img:hover {
+    border-radius: 100%;
+    transition: 0.5s;
 }
 
 .our-team-card-one-header {
