@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./sass/index.scss">
     <title>Activebox</title>
 </head>
@@ -285,9 +286,35 @@
     </section>
 
     <section class="slider">
-        <div class="slider-container">
-            
-        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="left">
+                    <img src="./img/slide-one.jpeg" alt="Slide one">
+                </div>
+                <div class="right">
+                    <p>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
+                </div>
+              </div>
+              <div class="swiper-slide"><div class="left">
+                <img src="./img/slide-two.jpeg" alt="Slide two">
+            </div>
+            <div class="right">
+                <p>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
+            </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="left">
+                    <img src="./img/slide-three.jpeg" alt="Slide three">
+                </div>
+                <div class="right">
+                    <p>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
     </section>
 
     <section class="downloadings">
@@ -335,7 +362,7 @@
         </div>
     </footer>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="./js/index.js"></script>
 </body>
 </html>
