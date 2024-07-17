@@ -1,12 +1,12 @@
 .downloadings-container {
     max-width: 1170px;
-}
 
-.downloadings-header {
-    text-align: center;
-    font-size: 30px;
-    padding: 114px 0 10px;
-    font-weight: 200;
+    .downloadings-header {
+        text-align: center;
+        font-size: 30px;
+        padding: 114px 0 10px;
+        font-weight: 200;
+    }
 }
 
 .downloadings-text {
@@ -23,17 +23,17 @@ button {
     color: #FFFFFF;
     border: none;
     transition: 0.3s;
-}
 
-button:hover {
-    background-color: #E71414;
-    transition: 0.3s;
-    cursor: pointer;
-}
+    &:hover {
+        background-color: #E71414;
+        transition: 0.3s;
+        cursor: pointer;
+    }
 
-button:active {
-    background-color: #FF4343;
-    box-shadow: 5px 5px 20px rgb(249, 32, 32);
+    &:active {
+        background-color: #FF4343;
+        box-shadow: 5px 5px 20px rgb(249, 32, 32);
+    }
 }
 
 .button {
