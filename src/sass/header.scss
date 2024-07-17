@@ -77,6 +77,13 @@ ul li a {
     z-index: 1;
 }
 
+ul li:hover {
+    border-bottom: 1px solid black;
+    width: 20px;
+    height: 1px;
+    z-index: 2;
+}
+
 .activebox-container {
     width: 1170px;
     padding: 0 170px;
