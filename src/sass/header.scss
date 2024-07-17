@@ -77,13 +77,6 @@ ul li a {
     z-index: 1;
 }
 
-ul li:hover {
-    border-bottom: 1px solid black;
-    width: 20px;
-    height: 1px;
-    z-index: 2;
-}
-
 .activebox-container {
     width: 1170px;
     padding: 0 170px;
@@ -122,6 +115,8 @@ ul li:hover {
         color: #FFFFFF;
         border: none;
         transition: 0.3s;
+        animation: move 0.9s alternate infinite;
+
 
         &:hover {
         background-color: #E71414;
@@ -132,6 +127,16 @@ ul li:hover {
         &:active {
             background-color: #FF4343;
             box-shadow: 5px 5px 20px rgb(249, 32, 32);
+        }
+    }
+
+    @keyframes move {
+        0% {
+            transform: scale(0.8);
+        }
+
+        100% {
+            transform: scale(1.2);
         }
     }
 } 
